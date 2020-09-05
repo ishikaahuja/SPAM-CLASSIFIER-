@@ -1,0 +1,11 @@
+Our priority while model selection is to select a mode with  the most test precision.
+That is we aim to select a model that doesnot produce any false positives.
+
+After running both the models on a small dataset we have concluded that 
+The best model found is support vector machine with 98.3% accuracy.
+
+It classifies every non-spam message correctly (Model precision)
+
+It classifies the 87.7% of spam messages correctly (Model recall)
+
+Hence we will now train the model with larger dataset which will include raw data and will record the frequencies of common words and also record new words encountered. 
